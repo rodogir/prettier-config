@@ -16,7 +16,7 @@ module.exports = {
 };
 ```
 
-Add a script to format your code in the `package.json`
+(optional) Add a script to format your code in the `package.json`
 
 ```json
 {
@@ -26,4 +26,11 @@ Add a script to format your code in the `package.json`
     "format": "prettier --write \"**/*.{js,json,ts,tsx}\""
   }
 }
+```
+
+(optional) Add a `.prettierignore` file
+
+```
+node_modules
+.next
 ```
