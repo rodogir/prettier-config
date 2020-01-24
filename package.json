@@ -1,7 +1,7 @@
 {
   "name": "@rodogir/prettier-config",
   "version": "0.2.0",
-  "main": "index.js",
+  "main": ".prettierrc.js",
   "license": "MIT",
   "dependencies": {
     "prettier": "1.19"
