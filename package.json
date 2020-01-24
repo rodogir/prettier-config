@@ -3,6 +3,14 @@
   "version": "0.3.0",
   "main": ".prettierrc.js",
   "license": "MIT",
+  "repository": "github:rodogir/prettier-config",
+  "homepage": "https://github.com/rodogir/prettier-config#rodogirprettier-config",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json}\""
+  },
   "dependencies": {
     "prettier": "1.19"
   }
