@@ -12,6 +12,6 @@
     "format": "prettier --write \"**/*.{js,json}\""
   },
   "dependencies": {
-    "prettier": "1.19"
+    "prettier": "2.0"
   }
 }
