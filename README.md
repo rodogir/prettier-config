@@ -5,7 +5,7 @@ This package provides @rodogir's personal prettier configuration as a ready to u
 ## Quick Start
 
 ```bash
-yarn add -D @rodogir/prettier-config
+yarn add -D @rodogir/prettier-config prettier@2
 ```
 
 Then, create a `.prettierrc.js` file with the following content.

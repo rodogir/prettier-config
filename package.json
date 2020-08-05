@@ -11,7 +11,10 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,json}\""
   },
-  "dependencies": {
+  "peerDependencies": {
+    "prettier": "2"
+  },
+  "devDependencies": {
     "prettier": "2.0"
   }
 }
