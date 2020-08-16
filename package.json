@@ -8,6 +8,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    ".prettierrc.js"
+  ],
   "scripts": {
     "format": "prettier --write \"**/*.{js,json}\""
   },
