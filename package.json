@@ -1,6 +1,6 @@
 {
   "name": "@rodogir/prettier-config",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "main": ".prettierrc.js",
   "license": "MIT",
   "repository": "github:rodogir/prettier-config",
