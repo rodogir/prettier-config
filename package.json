@@ -6,7 +6,8 @@
   "repository": "git://github.com/rodogir/prettier-config",
   "homepage": "https://github.com/rodogir/prettier-config#rodogirprettier-config",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   },
   "files": [
     ".prettierrc.js"
