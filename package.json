@@ -3,7 +3,7 @@
   "version": "0.5.3",
   "main": ".prettierrc.js",
   "license": "MIT",
-  "repository": "github:rodogir/prettier-config",
+  "repository": "git://github.com/rodogir/prettier-config",
   "homepage": "https://github.com/rodogir/prettier-config#rodogirprettier-config",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -12,7 +12,7 @@
     ".prettierrc.js"
   ],
   "scripts": {
-    "format": "prettier --write \"**/*.{js,json}\""
+    "format": "prettier --write \"**/*.{js,json,yml}\""
   },
   "peerDependencies": {
     "prettier": "2"

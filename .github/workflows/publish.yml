@@ -3,7 +3,7 @@ name: Publish
 on:
   create:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   publish-gpr:
@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@rodogir'
+          scope: "@rodogir"
       - run: yarn install
       - run: yarn npm publish
         env:
