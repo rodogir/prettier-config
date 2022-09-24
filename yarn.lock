@@ -2,24 +2,24 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
-  cacheKey: 5
+  version: 6
+  cacheKey: 8
 
 "@rodogir/prettier-config@workspace:.":
   version: 0.0.0-use.local
   resolution: "@rodogir/prettier-config@workspace:."
   dependencies:
-    prettier: 2.0
+    prettier: ^2.7.1
   peerDependencies:
     prettier: 2
   languageName: unknown
   linkType: soft
 
-"prettier@npm:2.0":
-  version: 2.0.5
-  resolution: "prettier@npm:2.0.5"
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: d249d89361870a29b20e8b268cb09e908490b8c9e21f70393d12a213701f29ba7e95b7f9ce0ad63929c16ce475176742481911737ae3da4a498873e4a3b90990
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
